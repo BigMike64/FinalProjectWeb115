@@ -3,3 +3,4 @@ document.addEventListener('DOMContentLoaded', function() {
     var downloadFormBtn = document.getElementById('downloadFormBtn');
     var clearFormBtn = document.getElementById('clearFormBtn');
 });
+
