@@ -8,14 +8,41 @@
     <body>
         <div class="banner">
             <h1>Perfectly Portioned Fitness</h1>
-
+            <p>WEB-115, Section: 0001</p>
             <h2>Build your meal plan</h2>
         </div>
         
 
         <form id="mealPlanForm">
+
+            <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="goal">Goal for the Week:</label>
+        <textarea id="goal" name="goal" rows="4" required></textarea>
+
+        <h3>Meal Plan for the Week</h3>
+
+        <label for="breakfast">Breakfast:</label>
+        <input type="text" id="breakfast" name="breakfast">
+
+        <label for="snack1">Snack1:</label>
+        <input type="text" id="snack1" name="snack1">
+
+        <label for="lunch">Lunch:</label>
+        <input type="text" id="lunch" name="lunch">
+
+        <label for="snack2">Snack2:</label>
+        <input type="text" id="snack2" name="snack2">
+
+        <label for="dinner">Dinner:</label>
+        <input type="text" id="dinner" name="dinner">
+
             <input type="button" id="generateMealPlanBtn" value="Generate meal plan">
-            <input type="button" id="downloadFormBtn" value="Download Form">
+            <input type="button" id="printFormBtn" value="Print Form">
             <input type="button" id="clearFormBtn" value="Clear">
         </form>
         <script src="projectJS.js"></script>
